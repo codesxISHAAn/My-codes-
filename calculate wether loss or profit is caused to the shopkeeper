@@ -1,0 +1,9 @@
+#wap too check if the shopkeeper is getting profit or not
+cp=float(input("enetr the cost price - "))
+sp=float(input("enter the selling price - "))
+if cp>sp:
+    (sp,"provides a loss to the shopkeeper")
+    print("loss =",cp-sp)
+else:
+    (sp,"provides a profit to the the shopkeeper")
+    print("profit",sp-cp)
