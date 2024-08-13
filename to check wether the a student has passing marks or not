@@ -1,0 +1,6 @@
+#wap to decide wether the student is passing or not
+n=int(input("enter your marks -"))
+if n<33:
+    print(n,"are not passing marks")
+else:
+    print(n,"are passing marks")
